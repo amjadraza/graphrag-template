@@ -66,3 +66,11 @@ streamlit run --server.runOnSave=true  src/app.py
 ## Configure Indexing
 
 `python -m graphrag.index --init --root ./ragtest`
+
+## Credits / Resources
+
+1. [Official Documentation](https://microsoft.github.io/graphrag/)
+2. [GitHub Project](https://github.com/microsoft/graphrag)
+3. [Release Blogpost](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)
+4. [Video by Mervin Praison](https://www.youtube.com/watch?v=zDv8akdf6v4)
+5. [Video by PrompmtEngineer] (https://www.youtube.com/watch?v=vX3A96_F3FU)
