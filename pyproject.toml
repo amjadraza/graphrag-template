@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "graphrag-template"
+version = "0.1.0"
+description = "A template for graphrag"
+authors = ["Amjad Raza <info@datafyassociates.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "."}]
+[tool.poetry.dependencies]
+python = ">=3.10 <3.12"
+jupyterlab = "4.2.3"
+pandas = "^2.2.2"
+graphrag= "^0.1.1"
+streamlit = "^1.36.0"
+
+
+[tool.poetry.group.lint.dependencies]
+isort = "^5.12.0"
+black = {version = "^23.1a1", allow-prereleases = true}
+flake8 = "^6.0.0"
+
+[tool.isort]
+profile = "black"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

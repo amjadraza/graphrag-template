@@ -1,0 +1,11 @@
+version: '3'
+services:
+  pms-tl:
+    image: pms-tl:latest
+    build: .
+    volumes:
+      - ./data:/home/appuser/app/data
+    ports:
+    - 8000:80
+    working_dir: /home/appuser/app/
+    command: ["streamlit", "run", "geo_tl_src/main.py", "--server.port=80"]
