@@ -128,7 +128,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-/inputs/operation dulce/lancedb/
+/inputs/operation dulce/lancedb/*
+.devcontainer/*
 
 
 
