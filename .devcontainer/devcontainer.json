@@ -1,0 +1,16 @@
+{
+    "name": "GraphRag Python Template",
+    "dockerFile": "../Dockerfile",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-python.vscode-pylance"
+        ],
+        "settings": {
+          "python.poetryPath": "/opt/poetry/bin/poetry"
+        }
+      }
+    },
+    "remoteUser": "root"
+  }
