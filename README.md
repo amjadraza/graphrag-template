@@ -4,6 +4,8 @@ A Template Project for Graphrag
 
 This is a template project to get us started with [graphrag](https://github.com/microsoft/graphrag/tree/main)
 
+[GraphRag Official Documentation](https://microsoft.github.io/graphrag/)
+
 ## 🔧 Features
 - A template with `poetry` environment
 - A test data (raw + processed)
@@ -60,3 +62,7 @@ python src/local_search.py
 
 streamlit run --server.runOnSave=true  src/app.py
 ```
+
+## Configure Indexing
+
+`python -m graphrag.index --init --root ./ragtest`
